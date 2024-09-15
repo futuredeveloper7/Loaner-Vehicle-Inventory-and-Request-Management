@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cdf304fd9310121088187e018bba100e" label="Loaner Vehicle Catalog" max_length="40" name="x_1437321_lva_loaner_vehicle_catalog" type="collection">
+        <element attributes="pdf_cell_type=image" label="Image" max_length="40" name="image" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Not Available" sequence="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Description" max_length="40" name="vehicle_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Make" max_length="40" name="vehicle_make" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Model" max_length="40" name="vehicle_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vehicle Year" max_length="40" name="vehicle_year" type="string"/>
+    </element>
+</database>
